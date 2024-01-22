@@ -35,7 +35,7 @@
                 left: 0;
                 transform: scaleX(0);
                 transition: getAnimationDuration(.2s) ease-in-out;
-                transition: transform calc(var(--animation-speed) * 0.2s)ease-in-out;
+                transition: transform calc(var(--animation-speed) * 0.2s) ease-in-out;
             }
             &:hover {
                 &::before {

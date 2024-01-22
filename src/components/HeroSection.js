@@ -2,15 +2,15 @@ import CustomImage from "./CustomImage"
 
 export default function HeroSection() {
     const images =[
-        "/img/gallery/img-1.jpg",
-        "/img/gallery/img-2.jpg",
-        "/img/gallery/img-3.jpg",
-        "/img/gallery/img-4.jpg",
-        "/img/gallery/img-5.jpg",
-        "/img/gallery/img-6.jpg",
-        "/img/gallery/img-7.jpg",
-        "/img/gallery/img-8.jpg",
-        "/img/gallery/img-9.jpg"
+        "/img/gallery/img-1.jpeg",
+        "/img/gallery/img-2.jpeg",
+        "/img/gallery/img-3.jpeg",
+        "/img/gallery/img-4.jpeg",
+        "/img/gallery/img-5.jpeg",
+        "/img/gallery/img-6.jpeg",
+        "/img/gallery/img-7.jpeg",
+        "/img/gallery/img-8.jpeg",
+        "/img/gallery/img-9.jpeg"
     ] 
     
     return (
@@ -28,7 +28,7 @@ export default function HeroSection() {
             </div>
             <div className="col gallery">
                 { images.map((src, index) => 
-                    <CustomImage key={index} imgSrc={src} pt={"85%"} />
+                    <CustomImage key={index} imgSrc={src} pt={"90%"} />
                 )}
             </div>
         </div>
