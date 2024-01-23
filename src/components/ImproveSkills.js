@@ -25,7 +25,7 @@ export default function ImproveSkills() {
                 ))}
 
                 <button className ="btn">
-                     signup now
+                    signup now
                 </button>
             </div>
         </div>
