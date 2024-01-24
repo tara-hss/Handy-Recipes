@@ -63,62 +63,6 @@ img {
     }
 } 
 
-@import "partials/navbar.scss";
-
-.section {
-    display: flex;
-    align-items: center;
-    margin-bottom: 3em;
-    .title {
-        color: var(--text-color);
-        font-size: 2.5em;
-        margin-bottom: .25em;
-        font-weight: 900;
-    }
-    .info {
-        color: var(--background-light);
-        font-size: 1em;
-        letter-spacing: 1px;
-        line-height: 1.3em;
-        margin-bottom: 1.25em;
-    }
-    .col {
-        width: 50%;
-    }
-}
-
-@import "partials/hero-section.scss";
-
-.section.improve-skills {
-    .col.img {
-        img {
-            width: 100%;
-        }
-    }
-    .col.typography {
-        padding-left: 1em;
-        .skill-item {
-            border-left: .2em solid var(--primary-color);
-            margin-bottom: .5em;
-            padding-left: .5em;
-            padding: .1em 0 .1em .5em;
-            color: var(--text-light);
-            font-weight: bold;
-            transform: translateX(100%);
-            opacity: 0;
-            animation: getAnimationDuration(.3s) slideInRight forwards;
-            @for $i from 2 through 7 {
-                &:nth-child(#{$i}) {
-                    animation-delay: #{ $i * .1}s;
-                }
-            }
-        }
-        .btn {
-            margin-top: .75em;
-        }
-    }
-}
-
 .main {
     padding-block: 3vw;
 }
@@ -127,7 +71,13 @@ img {
     padding-inline: 10vw;
 }
 
+@import "partials/navbar.scss";
+@import "partials/section.scss";
+@import "partials/hero-section.scss";
+@import "partials/improve-section.scss";
+@import "partials/quote-section.scss";
 @import "partials/animations.scss";
+
 @media screen and (max-width: 768px) {
     .navbar{
         .nav-links {

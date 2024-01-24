@@ -1,0 +1,21 @@
+.section {
+    display: flex;
+    align-items: center;
+    margin-bottom: 3em;
+    .title {
+        color: var(--text-color);
+        font-size: 2.5em;
+        margin-bottom: .25em;
+        font-weight: 900;
+    }
+    .info {
+        color: var(--background-light);
+        font-size: 1em;
+        letter-spacing: 1px;
+        line-height: 1.3em;
+        margin-bottom: 1.25em;
+    }
+    .col {
+        width: 50%;
+    }
+}
