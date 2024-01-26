@@ -6,37 +6,37 @@ export default function ChefsSection() {
             name: "John Kanell",
             img: "/img/chefs/img-1.jpeg",
             recipesCount: 10,
-            cuisine: "Americain"
+            cuisine: "Americain - French"
         },
         {
-            name: "John Kanell",
-            img: "/img/chefs/img-1.jpeg",
+            name: "Akis Petretzikis",
+            img: "/img/chefs/img-2.jpeg",
             recipesCount: 10,
-            cuisine: "Americain"
+            cuisine: "Greek"
         },
         {
-            name: "John Kanell",
-            img: "/img/chefs/img-1.jpeg",
+            name: "Refika Birgül",
+            img: "/img/chefs/img-3.jpeg",
             recipesCount: 10,
-            cuisine: "Americain"
+            cuisine: "Turkish"
         },
         {
-            name: "John Kanell",
-            img: "/img/chefs/img-1.jpeg",
+            name: "Javad Javadi",
+            img: "/img/chefs/img-4.jpeg",
             recipesCount: 10,
-            cuisine: "Americain"
+            cuisine: "Iranian"
         },
         {
-            name: "John Kanell",
-            img: "/img/chefs/img-1.jpeg",
+            name: "Jamie Oliver",
+            img: "/img/chefs/img-5.jpeg",
             recipesCount: 10,
-            cuisine: "Americain"
+            cuisine: "British"
         },
         {
-            name: "John Kanell",
-            img: "/img/chefs/img-1.jpeg",
+            name: "Marion Grasby",
+            img: "/img/chefs/img-6.jpeg",
             recipesCount: 10,
-            cuisine: "Americain"
+            cuisine: "Australian - Asian"
         }
     ]
 
