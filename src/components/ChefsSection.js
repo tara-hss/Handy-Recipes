@@ -3,22 +3,16 @@ import ChefCard from "./ChefCard"
 export default function ChefsSection() {
     const chefs = [
         {
-            name: "John Kanell",
-            img: "/img/chefs/img-1.jpeg",
-            recipesCount: 10,
-            cuisine: "Americain - French"
-        },
-        {
             name: "Akis Petretzikis",
             img: "/img/chefs/img-2.jpeg",
             recipesCount: 10,
             cuisine: "Greek"
         },
         {
-            name: "Refika Birgül",
-            img: "/img/chefs/img-3.jpeg",
+            name: "John Kanell",
+            img: "/img/chefs/img-1.jpeg",
             recipesCount: 10,
-            cuisine: "Turkish"
+            cuisine: "Americain - French"
         },
         {
             name: "Javad Javadi",
@@ -27,16 +21,22 @@ export default function ChefsSection() {
             cuisine: "Iranian"
         },
         {
-            name: "Jamie Oliver",
-            img: "/img/chefs/img-5.jpeg",
+            name: "Refika Birgül",
+            img: "/img/chefs/img-3.jpeg",
             recipesCount: 10,
-            cuisine: "British"
+            cuisine: "Turkish"
         },
         {
             name: "Marion Grasby",
             img: "/img/chefs/img-6.jpeg",
             recipesCount: 10,
             cuisine: "Australian - Asian"
+        },
+        {
+            name: "Jamie Oliver",
+            img: "/img/chefs/img-5.jpeg",
+            recipesCount: 10,
+            cuisine: "British"
         }
     ]
 
