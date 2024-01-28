@@ -5,10 +5,10 @@ export default function Footer() {
                 <p className="footer-title">
                     HeirloomKitchenTreasures
                 </p>
-                <p className="">
+                <p>
                 Heirloom Kitchen Treasures is a place where you can please your soul and tummy.
                 </p>
-                <p className="">
+                <p>
                     &copy; 2024 | All rights reserved
                 </p>
             </div>
@@ -17,13 +17,13 @@ export default function Footer() {
                 <p className="footer-title">
                     Contact Us
                 </p>
-                <p className="">
+                <p>
                 heirloomkitchentreasures@gmail.com
                 </p>
-                <p className="">
+                <p>
                     Melbourne, Australia
                 </p>
-                <p className="">
+                <p>
                     +61 444 222 666
                 </p>
             </div>
@@ -31,12 +31,6 @@ export default function Footer() {
             <div className="footer-section">
                 <p className="footer-title">
                     About Us
-                </p>
-                <p className="footer-title">
-                    Health Facts
-                </p>
-                <p className="footer-title">
-                    Articles
                 </p>
             </div>
         </div>
